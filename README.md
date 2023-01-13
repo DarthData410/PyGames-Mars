@@ -1,5 +1,5 @@
 # PyGames-Mars
-By: J. Brandon George | darth.data410@gmail.com | twitter: @PyFryDay | medium.com: (insert profile link)
+By: J. Brandon George | darth.data410@gmail.com | twitter: @PyFryDay | medium.com: https://darth-data410.medium.com/
 license found @: PyGames-Mars/LICENSE (Apache License Version 2.0 Janurary 2004)
 
 # Details:
