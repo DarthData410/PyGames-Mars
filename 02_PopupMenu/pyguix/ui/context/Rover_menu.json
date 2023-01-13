@@ -1,0 +1,35 @@
+{
+    "PopupMenu": {
+        "details": {
+            "actionclass": "<class '__main__.RoverMenu'>",
+            "targetclasses": ["<class 'player.Player'>"]
+        },
+        "menuitems":{
+            "info":{
+                "popupmenuitem":{
+                    "text": "Get Info",
+                    "type": 0,
+                    "action": "rover_info",
+                    "enabled": true
+                }
+            },
+            "sep1":{
+                "popupmenuitem":{
+                    "text": "[&SEP]",
+                    "type": 1,
+                    "action": "[&SEP]",
+                    "enabled": false
+                }
+            },
+            "sample":{
+                "popupmenuitem":{
+                    "text": "Sample Soil",
+                    "type": 0,
+                    "action": "sample_soil",
+                    "enabled": true
+                }
+            }
+        },
+        "notes": "Rover Right-Click PopupMenu for PyGames-Mars pygame."
+    }
+}
