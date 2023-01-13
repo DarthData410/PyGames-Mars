@@ -20,7 +20,7 @@ Each of the following sections, list specific, self-contained instances of the g
 2. Medium.com Links:
 
     1. <a href="https://darth-data410.medium.com/how-to-easily-create-pygame-user-interface-and-heads-up-display-elements-3b1bf424a2c8" target="_blank">How-To: Easily Create PyGame User Interface and Heads Up Display Elements</a>
-    2. (Link to second post of Medium.com)
+    2. <a href="https://darth-data410.medium.com/how-to-easily-create-pygame-user-interface-heads-up-display-elements-part-ii-3888d1a0afe">How-To: Easily Create PyGame User Interface & Heads Up Display Elements — Part II</a>
 
 # 02_PopupMenu
 1. Instance Overview:
