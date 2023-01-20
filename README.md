@@ -1,5 +1,5 @@
 # PyGames-Mars
-By: J. Brandon George | darth.data410@gmail.com | twitter: @PyFryDay | medium.com: https://darth-data410.medium.com/
+By: J. Brandon George | darth.data410@gmail.com | twitter: @PyFryDay | medium.com: https://darth-data410.medium.com/ | youtube: https://www.youtube.com/@pyfryday
 source-code license found @: PyGames-Mars/LICENSE (Apache License Version 2.0 Janurary 2004)
 Art|Graphics Assest - license|usage found in 'External Attributions' as-well-as 'Graphics - License and Use'. 
 
@@ -44,7 +44,7 @@ Each of the following sections, list specific, self-contained instances of the g
 
 2. Medium.com Links:
 
-    1. __(TBD)__
+    1. <a href="https://darth-data410.medium.com/how-to-easily-implement-pygame-user-interface-elements-part-iii-popup-menus-134df503a80">How-To: Easily Implement PyGame User Interface Elements — Part III — Popup Menus</a>
 
 # 03_Animation
 1. Instance Overview:
