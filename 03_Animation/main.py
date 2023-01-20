@@ -35,8 +35,9 @@ class RoverMenu(ui.PopupMenuActions):
 		pmi = self.get_active_menuitem()
 		pmi.contextof.samplesoil() #NOTE: contextof is right-clicked sprite. (ie:Player.samplesoil() call works)
 
-	def __init__(self,window):
+	def __init__(self,window,rg):
 		self.window = window
+		self.rg = rg
 		super().__init__()
 
 class Game:
@@ -45,7 +46,7 @@ class Game:
 		# general setup
 		pygame.init()
 		self.screen = pygame.display.set_mode((WIDTH,HEIGHT))
-		pygame.display.set_caption('Mars | 02_PopupMenu | Right-click on Rover!')
+		pygame.display.set_caption('Mars | 03_Animation | Move ROVI!')
 		self.clock = pygame.time.Clock()
 
 		# Set pyguix ui elements global theme:
@@ -57,7 +58,7 @@ class Game:
 		self.level = Level() # create instance of Level from level.py
 		
 		# PopupMenu Variables / Setup:
-		RoverMenu(self.screen)
+		RoverMenu(self.screen,self.level.visible_sprites)
 		self.pu = None
 	
 	def game_quit(self) -> bool:
@@ -102,6 +103,7 @@ class Game:
 							sys.exit()
 				
 				if event.type == pygame.MOUSEBUTTONDOWN:
+					
 					# Popup Menu Setup:
 					if event.button == pygame.BUTTON_RIGHT:
 						ui.PopupMenu.clearall(self.pu)
@@ -109,12 +111,13 @@ class Game:
 						self.pu = ui.PopupMenu(
                         	window=pygame.display.get_surface(),
                         	target_mouse_pos=pygame.mouse.get_pos(),
-                        	rg=self.level.visible_sprites,
+                        	rg=self.level.visible_sprites
 						)
 
 					elif event.button == pygame.BUTTON_LEFT:
 						# Respond to left mouse click, if on rover_snap_hud ui element.:
 						self.level.rover_snap_hud.clicked()
+						
 						# NOTE: If PopupMenu instance active then call PopupMenu.clicked() passing in event_list:
 						if isinstance(self.pu,ui.PopupMenu): self.pu.clicked(event_list)
 

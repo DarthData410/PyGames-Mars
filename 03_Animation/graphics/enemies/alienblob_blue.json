@@ -1,0 +1,20 @@
+{
+    "SpriteSheetMap":{
+        "Title": "Alien Blob Blue Sprite Sheet, 64 pixels",
+        "Sprite_Sheet": "alienblob_blue.png",
+        "Animation_Speed": 0.15,
+        "Dimensions": [64,64],
+        "Value_Keys": ["down"],
+        "Suffix_Keys":[],
+        "Values_Map":{
+            "down":{
+                "sprite_details":{
+                    "row": 0,
+                    "count": 7,
+                    "start": 0
+                }
+            }
+        },
+        "Notes": "Alien Blob Blue for PyGames-Mars tutorial game instances."
+    }
+}

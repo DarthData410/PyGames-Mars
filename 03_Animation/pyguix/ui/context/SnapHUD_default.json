@@ -1,0 +1,31 @@
+{
+    "SnapHUD": {
+        "details": {
+            "title": "Rover Details",
+            "infoclass": "<class '__main__.RoverDetailsInfo'>"
+        },
+        "parts":{
+            "position":{
+                "title": "Position",
+                "function": "center_pos",
+                "type": "SnapHUDPartText"
+            },
+            "direction":{
+                "title": "Direction",
+                "function": "rover_direction",
+                "type": "SnapHUDPartText"
+            },
+            "last_soil_sample":{
+                "title": "Last Sample",
+                "function": "last_sample",
+                "type": "SnapHUDPartText"
+            },
+            "mineral_detected":{
+                "title": "Mineral Found",
+                "function": "mineral_detected",
+                "type": "SnapHUDPartText"
+            }
+        },
+        "notes": "Mars Rover Details (SnapHUD)"
+    }
+}

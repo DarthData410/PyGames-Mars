@@ -1,0 +1,69 @@
+{
+    "SpriteSheetMap":{
+        "Title": "Rover Sprite Sheet, 64 pixels",
+        "Sprite_Sheet": "rover.png",
+        "Dimensions": [64,64],
+        "Animation_Speed": 0.13,
+        "Value_Keys": ["down","left","right","up"],
+        "Suffix_Keys":["_idle"],
+        "Values_Map":{
+            "down_idle":{
+                "sprite_details":{
+                    "row": 0,
+                    "count": 1,
+                    "start": 0
+                }
+            },
+            "down":{
+                "sprite_details":{
+                    "row": 1,
+                    "count": 4,
+                    "start": 0
+                }
+            },
+            "left_idle":{
+                "sprite_details":{
+                    "row": 2,
+                    "count": 1,
+                    "start": 0
+                }
+            },
+            "left":{
+                "sprite_details":{
+                    "row": 2,
+                    "count": 4,
+                    "start": 64
+                }
+            },
+            "right_idle":{
+                "sprite_details":{
+                    "row": 3,
+                    "count": 1,
+                    "start": 0
+                }
+            },
+            "right":{
+                "sprite_details":{
+                    "row": 3,
+                    "count": 4,
+                    "start": 64
+                }
+            },
+            "up_idle":{
+                "sprite_details":{
+                    "row": 4,
+                    "count": 1,
+                    "start": 256
+                }
+            },
+            "up":{
+                "sprite_details":{
+                    "row": 4,
+                    "count": 4,
+                    "start": 0
+                }
+            }
+        },
+        "Notes": "For the Values_Map, each entry gives 0 based row, count of sprites in row, start='topleft x' of first sprite."
+    }
+}

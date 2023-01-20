@@ -1,0 +1,20 @@
+{
+    "SpriteSheetMap":{
+        "Title": "Alien Blob Red Sprite Sheet, 64 pixels",
+        "Sprite_Sheet": "alienblob_red.png",
+        "Animation_Speed": 0.13,
+        "Dimensions": [64,64],
+        "Value_Keys": ["down"],
+        "Suffix_Keys":[],
+        "Values_Map":{
+            "down":{
+                "sprite_details":{
+                    "row": 1,
+                    "count": 7,
+                    "start": 0
+                }
+            }
+        },
+        "Notes": "Alien Blob Red for PyGames-Mars tutorial game instances."
+    }
+}
