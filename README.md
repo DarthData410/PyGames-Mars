@@ -7,7 +7,7 @@ Art|Graphics Assest - license|usage found in 'External Attributions' as-well-as 
 This open source project contains elements, source code, graphics, sounds, etc. that support my Medium.com series of post about python3 and pygame. Please refer to each sections 'Medium.com Links' named list. 
 
 # Basis for game:
-You have landed a rover on Mars, named ROVI, and you are to survey the area in which ROVI can move in. In surverying the objective is to find all the minerals that exist, and record their cordinates for later phases that will mine said minerals. You need to pay attention to your power, because if it gets critically low before you recharge ROVI, then it will die. Each operation, like moving, sampling, etc. uses up power. Extending the solar panels to recharge uses power, hence why you need enough power to extend them to refill your power. Random events will take place, like storm damage, etc that will have an negative impact on ROVI. Further contact with alien (or from their point of view, native) lifeforms may take place. Such outcomes are unknown and what might arise from said contact. 
+You have landed a rover on Mars, named ROVI, and you are to survey the area in which ROVI can move in. In surverying the objective is to find all the minerals that exist, and record their cordinates for later phases that will mine said minerals. Contact with alien (or from their point of view, native) lifeforms may take place.  
 
 Each of the following sections, list specific, self-contained instances of the game. Each has a certain level of development advancemenet, and the next instance builds from the base of the previous. Each section below also has links to the corresponding medium.com post that make sure and reference code, elements, objects, walkthroughs, guides, etc.
 
@@ -51,15 +51,15 @@ Each of the following sections, list specific, self-contained instances of the g
 
     This instance is a clone of '02_PopupMenu', 'PyGames-Mars' game instance. It carries with it then all examples in place for MessageBoxes, SnapHUD and PopupMenu pyguix.ui.elements.
 
-    The major focus of this game instance is around setting up basic animation based on the player.Player movement. In doing so we are getting ready for enabling future instances to allow more user interface examples, game options, and other game concepts. Further adding enemy sprites to interact with during game play as well, specifically two different types of aliens. (Though technically the rover is an alien object on Mars and the 'aliens' are actually natives... but hey...)
+    The major focus of this game instance is around setting up basic animation based on the player.Player movement. In doing so we are getting ready for enabling future instances to allow more user interface examples, game options, and other game concepts. Further adding enemy sprites to interact with during game play as well, the 'aliens' (Though technically the rover is an alien object on Mars and the 'aliens' are actually natives... but hey...)
 
     In order to enable animations, movement of sprites, etc. this instance introduces the concept of sprite sheets, as well as a relating sprite sheet map file, in the format of JSON. This sprite sheet map tells a call found in the spritesheet.py python file, called SpriteSheet, what sprite sheet .png file to load, and how to break up that said sprite sheet, so that the different sprites can be subsurface()ed from the single loaded sprite sheet .png file. 
 
-    This is for performance reasons, but also for management of graphic assests, so that you are managing just a single sprite sheet, vs. multiple files for the different frames in which a sprite animation is made up of. This is one approach for working with sprites and sprites sheets that, if used, allows for you to easily drop and pug in new sprites for game play / game design.
+    This is for performance reasons, but also for management of graphic assests, so that you are managing just a single sprite sheet, vs. multiple files for the different frames in which a sprite animation is made up of. This is one approach for working with sprites and sprites sheets that, if used, allows for you to easily drop and plug in new sprites for game play / game design.
 
 2. Medium.com Links:
 
-    1. __(TBD)__
+    1. __(TBD)__ 
 
 # External Attributions
 The group behind the pygame library itself (pygame.org) can not be thanked enough for the continued effort in keeping the pygame library fresh, useful and relevant. Further the coding style, naming of classes and python (.py) files adhere (loosely) to standards set forth in examples provided by pygame.org site. Specifically in the Zelda Python example was used to he help jump start this work. Finally the graphics found in this game, are in part, jump started from Pixel-boy. (https://pixel-boy.itch.io/ninja-adventure-asset-pack). Specifically the background, rock and boulder objects. 

@@ -7,10 +7,10 @@ import pygame
 import spritesheet as ss
 
 #NOTE: Quick example test:
-LOC='./graphics/enemies/'
-#LOC='./graphics/player/'
-FILE='alienblob_yellow.json'
-#FILE='rover.json'
+#LOC='./graphics/enemies/'
+LOC='./graphics/player/'
+#FILE='alienblob_yellow.json'
+FILE='rover.json'
 
 
 # pygame init:

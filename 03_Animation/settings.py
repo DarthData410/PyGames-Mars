@@ -42,8 +42,6 @@ ALIENGREEN='alienblob_green'
 ALIENYELLOW='alienblob_yellow'
 PLAYERMAP='rover'+EXT
 
-
-MOVE='/move/'
 DOWN='down'
 LEFT='left'
 RIGHT='right'

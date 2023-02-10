@@ -1,7 +1,6 @@
 import pygame 
 import pyguix.ui.elements as ui
 from settings import *
-from tile import Tile
 from gameobject import *
 from player import Player
 from enemy import Enemy
@@ -33,14 +32,6 @@ class Level:
 			context='SnapHUD_default.json',
 			rg=self.visible_sprites
 		)
-
-		# NOTE Testing for vector based distance by plotted x,y cords.:
-		print(self.player.direction)
-		for e in self.enemies:
-			print(e.enemy_type)
-			print(e.vector)
-			print(self.player.direction.distance_to(e.vector))
-			print(self.player.direction.distance_squared_to(e.vector))
 		
 	def create_map(self):
 		for row_index,row in enumerate(MAP):
