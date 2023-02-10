@@ -59,7 +59,8 @@ Each of the following sections, list specific, self-contained instances of the g
 
 2. Medium.com Links:
 
-    1. __(TBD)__ 
+    1. <a href="https://darth-data410.medium.com/how-to-easily-implement-sprite-sheets-in-your-pygames-120ce5ea9780">How-To: Easily Implement Sprite Sheets In Your PyGames</a>
+    2. <a href="https://youtu.be/8o0bGX_PYCs">YouTube Video Link</a>
 
 # External Attributions
 The group behind the pygame library itself (pygame.org) can not be thanked enough for the continued effort in keeping the pygame library fresh, useful and relevant. Further the coding style, naming of classes and python (.py) files adhere (loosely) to standards set forth in examples provided by pygame.org site. Specifically in the Zelda Python example was used to he help jump start this work. Finally the graphics found in this game, are in part, jump started from Pixel-boy. (https://pixel-boy.itch.io/ninja-adventure-asset-pack). Specifically the background, rock and boulder objects. 
